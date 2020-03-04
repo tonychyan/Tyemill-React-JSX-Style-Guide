@@ -39,7 +39,7 @@
             "afterOpening": "never",
             "beforeClosing": "never"
           }],
-        "react/jsx-curly-spacing": [1],
+        "react/jsx-curly-spacing": [1, { "when": "always", "children": true }],
         "react/jsx-boolean-value": [1],
         "react/no-array-index-key": [1],
         "react/jsx-wrap-multilines": [1],
