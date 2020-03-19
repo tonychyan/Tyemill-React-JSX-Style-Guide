@@ -147,7 +147,7 @@ Orginal credit to: https://github.com/airbnb/javascript
       return WithFoo;
     }
     ```
-  - **Props Naming**: Avoid using DOM component prop names for different purposes.
+  - **Props Naming**: Avoid using names that sound like DOM components as prop names to avoid confusion.
 
     > Why? People expect props like `style` and `className` to mean one specific thing. Varying this API for a subset of your app makes the code less readable and less maintainable, and may cause bugs.
 
